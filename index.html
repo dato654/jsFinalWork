@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/root.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>cabane à pizza</title>
+    <link rel="shortcut icon" href="./assets/img/logo2.png" type="image/x-icon">
+</head>
+<body>
+    <div class="center" id="center">
+        <!-- <div class="circle"></div> -->
+        <span>loading ....</span>
+    </div>
+    
+    <div class="conteiner" id="conteiner">
+        <header>
+            <div class="comfort">
+                <div class="box1" >
+                    <h1>LA CARAVANA</h1>
+                </div>
+                <div class="box1 decktop" >
+                    <ul>
+                        <li>HOME</li>
+                        <li onclick="window.open('./AboutUs.html')">ABOUT US</li>
+                        <li onclick="window.open('./singUp.html')">MENU</li>
+                        <li onclick="window.open('./register.html')">REGISTER</li>
+                    </ul> 
+                </div>
+                    <div class="menu" onclick="toggleMenu()">
+                        <img src="./assets/img/burger.png" alt="burger">
+                    </div>   
+                    <div class="burger" id="burgerMenu">
+                        <div class="close" onclick="toggleMenu()">
+                            <div>
+                                <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="burgerLi">
+                                <li>HOME</li>
+                                <li onclick="window.open('./AboutUs.html')">ABOUT US</li>
+                                <li onclick="window.open('./register.html')">MENU</li>
+                                <li onclick="window.open('./register.html')">register</li>
+                            </div>    
+                        </div>
+                    </div>   
+                </div>
+            </header>
+            <nav>
+                <div class="autoSlider-content">
+                    
+                    <div class="box">
+                        <div class="turn"> 1 of 4</div>
+                        <img src="./assets/img/pizza1.jpg" alt="cover">
+                        <div class="sliderText">
+                            <h1>LA CARAVANA</h1>   
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="turn"> 2 of 4</div>
+                        <img src="./assets/img/pizza2.jpg" alt="cover">
+                        <div class="sliderText">
+                            <h1>Supreme pizza</h1>   
+                            <p>in the 1960s when the rise of <br>pizza chains led to a new wave<br> of topping combinations becoming popular.</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="turn"> 3 of 4</div>
+                        <img src="./assets/img/pizza3.jpg" alt="cover">
+                        <div class="sliderText">
+                            <h1>Classic Cheese Pizza</h1>   
+                            <p> in 1889, a Neapolitan baker named <br> Raffaele Esposito made the first pizza <br> with a  cheese topping as we know it.</p>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="turn"> 4 of 4</div>
+                        <img src="./assets/img/pizza4.jpg" alt="cover">
+                        <div class="sliderText">
+                            <h1>Peperoni</h1>   
+                            <p> In 1919, the pepperoni sausage first appeared in<br> Lower Manhattan, New York City.<br> It was developed by Italian immigrants </p>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div>
+                 <span class="Num" onclick="slide(1)"></span>
+                 <span class="Num" onclick="slide(2)"></span>
+                 <span class="Num" onclick="slide(3)"></span>
+                 <span class="Num" onclick="slide(4)"></span>
+                </div>
+
+            </nav>
+            <script src="./js/indexautoSlider.js"></script>
+            <article class="article1">
+                <div class="us">
+                        <h1>FIND US</h1>
+                    </div>
+                    <div class="content4">
+                        <div>
+                            <iframe class="mobile" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2992.8381114313133!2d2.1556675759578274!3d41.3993219712983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a296437d3ed3%3A0x8cbf10ceb3cbcd49!2sLa%20Caravana!5e0!3m2!1sen!2sge!4v1683444515059!5m2!1sen!2sge" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <iframe class="decktop" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6129317.986246061!2d-4.691051240566084!3d41.39947535733756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a296437d3ed3%3A0x8cbf10ceb3cbcd49!2sLa%20Caravana!5e0!3m2!1sen!2sge!4v1683386664048!5m2!1sen!2sge" width="500px" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="findus">
+                            <p>
+
+                                La Caravana
+                                Carrer de Mozart, 15, 08012 Barcelona, Spain
+                                <br>
+                                <br>
+                                ATTENDANCE
+                                Monday to Sunday  12:00pm - 8:00pm
+                                <br>
+                                <br>
+                                DELIVERY
+                                Monday - Sunday  10:00pm - 8:00pm
+                                
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <section class="section2">
+                    <div class="logos">
+                        <div><img onclick="window.open('https://www.instagram.com/')"  src="./assets/img/img1.png" alt="instagram"></div>
+                        <div><img onclick="window.open('https://www.facebook.com/')" src="./assets/img/image2.png" alt="facebook"></div>
+                        <div><img onclick="window.open('https://www.whatsapp.com/')" src="./assets/img/image3.png" alt="whats up"></div>
+                    </div>
+                </section>
+            <footer>
+                <div class="footer-conteiner">
+                    <div>
+                        <h1 class="h1Footer"> La Caravana</h1>
+                    </div>
+                    <div>
+                        <ol>
+                            <li>955+ 571 04 04 80</li>
+                            <li><a href="./register.html">Menu</a></li>
+                            <li><a href="./singUp.html">sign IN</a></li>
+                        </ol>
+                    </div>
+                    <div>
+                        <ol>
+                            <li><a href="./AboutUs.html">About Us</a></li>
+                            <li><a href="./singUp.html">Menu</a></li>
+                            <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook" style="color: #fcfcfd;"></i></a>
+                            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram" style="color: #fcfcfd; padding: 20px;"></i></a>
+                            <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter" style="color: #fcfcfd;"></i></a>
+                        </ol>
+                    </div>
+                </div>
+            </footer>
+            
+        </div>
+        <script src="./js/index.js"></script>     
+    </body>
+</html>

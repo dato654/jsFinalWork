@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/AboutUs.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="shortcut icon" href="./assets/img/logo2.png" type="image/x-icon">
+    <title>à propos de nous |  | information</title>
+</head>
+<body>
+    
+    <header>
+        <div class="header-conteiner">
+            <div class="box1" >
+                <h1>LA CARAVANA</h1>
+            </div>
+            <div class="box" >
+                <ul>
+                    <li onclick="window.open('./singUp.html')">sing up</li>
+                    <li onclick="window.open('./register.html')">MENU</li>
+                    <li onclick="window.open('./index.html')">HOME</li>
+                </ul> 
+            </div>
+                <div class="menu" onclick="toggleMenu()">
+                    <img src="./assets/img/burger.png" alt="burger">
+                </div>   
+                <div class="burger" id="burgerMenu">
+                    <div class="close" onclick="toggleMenu()">
+                        <div>
+                            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="burgerLi">
+                            <ul>
+                                <li onclick="window.open('./index.html')">HOME</li>
+                                <li onclick="window.open('./AboutUs.html')">ABOUT US</li>
+                                <li onclick="window.open('./menu.html')">MENU</li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>   
+            </div>
+        </header>    
+    <section>
+        <div class="content">
+            <div class="box">
+                <h1>
+                    ABOUT US
+                </h1>
+                <p>A precursor of pizza was probably the focaccia,<br> a flatbread known to the Romans as panis focacius,<br> to which toppings were then added.<br>Modern pizza evolved from similar flatbread <br>dishes in Naples, Italy,<br> in the 18th or early 19th century.<br> La caravana comes from 1999  7/14</p>
+            </div>
+            <div>
+                <img src="./assets/img/restaurant.png" alt="restoran">
+            </div>
+        </div>
+        <button onclick="darkMode()">darkmode</button>
+    </section>
+   <script src="./js/aboutUs.js"></script>
+   <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

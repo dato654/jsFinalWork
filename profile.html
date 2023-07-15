@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/profile.css">
+    <link rel="shortcut icon" href="./assets/img/logo2.png" type="image/x-icon">
+
+</head>
+<body>
+    <header>
+        <div class="header-conteiner">
+            <div class="box1" >
+                <h1>LA CARAVANA</h1>
+            </div>
+            <div class="box" >
+                <ul>
+                    <li onclick="window.open('./AboutUs.html')">ABOUT US</li>
+                    <li onclick="window.open('./menu.html')">MENU</li>
+                    <li onclick="window.open('./index.html')">HOME</li>
+                </ul> 
+            </div>
+                <div class="menu" onclick="toggleMenu()">
+                    <img src="./assets/img/burger.png" alt="burger">
+                </div>   
+                <div class="burger" id="burgerMenu">
+                    <div class="close" onclick="toggleMenu()">
+                        <div>
+                            <i class="fa-solid fa-x" style="color: #ffffff;"></i>
+                        </div>
+                        <div class="burgerLi">
+                            <ul>
+                                <li onclick="window.open('./index.html')">HOME</li>
+                                <li onclick="window.open('./AboutUs.html')">ABOUT US</li>
+                                <li onclick="window.open('./menu.html')">MENU</li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div>   
+            </div>
+        </header>    
+        <main>
+            <section>
+                <div class="URLImg">
+                        <div class="result">
+                            <img id="Userimg"  src="https://cdn.fb.ru/user_ava/198590/main/f.jpg?2907164" alt="profile photo">
+                        </div>
+                            <input type="file" id="UserFile">
+                        <button type="button">Change background color</button>
+
+                </div>
+            </section>
+            <article>
+                <div class="content">
+                    <h1>profile Information</h1>
+                </div>
+            </article>
+        </main>
+        <script src="./js/profile.js"></script>
+        <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

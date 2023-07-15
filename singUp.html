@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/singUp.css">
+    <!-- <link rel="stylesheet" href="./css/reset.css"> -->
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="shortcut icon" href="./assets/img/logo2.png" type="image/x-icon">
+</head>
+<body>
+  
+    <div class="conteiner">
+        <div class="box">
+            <div class="flex">
+                <h1>sign up</h1>
+                <i class="fa-solid fa-id-card fa-shake"></i>
+                <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+
+            </div>
+           
+            <form action="./menu.html">
+                <input type="email" title="Enter your email" id="UserEmail" placeholder="Enter your mail" pattern="^[\w.-]+@[a-zA-Z_-]+?(?:\.[a-zA-Z]{2,6})+$" required>
+                <input type="password" title="you mast have max 10 simbol use big and smole letters " id="UserPassword" placeholder="Enter your password" pattern="^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}$" required>
+                <label> chow/hide password
+                  <input type="checkbox"  id="checkbox" onclick="chowPass()">
+                </label>
+                <input type="submit" onclick="userReg()" >
+            </form>
+            <p>have not an account? <a href="./register.html"> register?</a></p>
+        </div>
+    </div>
+    <script src="./js/singUp.js"></script>
+</body>
+</html>

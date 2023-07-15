@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/root.css">
+    <link rel="shortcut icon" href="./assets/img/logo2.png" type="image/x-icon">
+    <title>le menu</title>
+</head>
+<body>
+
+    <!-- <button class="dark-mode" onclick="darkMode()">dark Mode</button> -->
+    <article class="article2" style="color: white;">
+        <div class="userImg">
+            <img id="profileImg" src="https://cdn.fb.ru/user_ava/198590/main/f.jpg?2907164" alt="User foto" onclick="window.open('./profile.html')">
+        </div>
+        <h1 class="profile">profile</h1>
+        <div class="menu2">
+            <h1>OUR MENU</h1>
+            <p>If you love pizza and think it's impossible to make restaurant worthy pizza<br>  at home, think again. Using good quality ingredients and<br> a few  simple techniques might get you in the ranks of some <br> of the best pies you’ve ever enjoyed. While <br> you may not  have a pizza oven in your backyard, we have 10 <br>  tips to help you  to make a delicious,<br>  thin-crust Margherita pie<br> in the comfort of your own home.</p>
+        </div>
+        <div>
+            <div class="imgflex">
+                <div class="flexImg">
+                    <img src="./assets/img/made.png" alt="imge about how to make pizza">
+                </div>
+                <div class="flexImg">
+                    <img src="./assets/img/make.png" alt="imge about how to make pizza">
+                </div>
+            </div>
+        </div>
+    </article>
+    <nav>
+        <div class="menu">
+            <h1>Menu</h1>
+        </div>
+        <div class="categoris">
+            <ul class="list">
+                <li class="list_item active"  data-id="all">all</li>
+                <li class="list_item" data-id="pizza">pizza</li>
+                <li class="list_item" data-id="Beveridge">Beveridge</li>
+                <li class="list_item" data-id="alco">alco</li>
+            </ul> 
+          <form action="">
+            <input type="text" id="indexInput" title="search what u need" onkeyup="pizzaSearch()">
+          </form> 
+         </div>
+    </nav>
+    <script src="https://kit.fontawesome.com/b2ba17e5a8.js" crossorigin="anonymous"></script>
+    <section>
+      
+           
+        <div class="conteiner" id="conteiner">
+            <div class="cover  pizza" id="content">
+                <div>
+                    <img src="./assets/img/menuPizza.png" alt="peperoni">
+                </div>
+                <h4><a href="">Peperoni</a></h4>
+                <p>3.5$</p>
+            </div>
+            <div class="cover pizza" id="content">
+                <div>
+                    <img src="./assets/img/menuPizza2.png" alt="4X4 Pizza">
+                </div>
+                <h4> <a href="">4X4</a></h4>
+                <p>4.2$</p>
+            </div>
+        </div>
+
+        <div class="conteiner" id="conteiner">
+            <div class="cover pizza" id="content">
+                <div>
+                    <img src="./assets/img/menuPizza3.png" alt="Cheese Lovers">
+                </div>
+                <h4><a href="">Cheese Lovers</a></h4>
+                <p>7.00$</p>
+            </div>
+            <div class="cover pizza" id="content">
+                <div>
+                    <img src="./assets/img/menuPizza4.png" alt="Cruiser">
+                </div>
+                <h4><a href="">Cruiser</a></h4>
+                <p>5.7$</p>
+            </div>
+        </div>
+
+        <div class="conteiner" id="conteiner">
+            <div class="cover Beveridge" id="content">
+                <div>
+                    <img src="./assets/img/cokezero.png" alt="cokezero">
+                </div>
+                <h4><a href="">coca cola zero</a></h4>
+                <p>2.00$</p>
+            </div>
+            <div class="cover Beveridge alco" id="content">
+                <div>
+                    <img src="./assets/img/heineken.png" alt="heineken">
+                </div>
+                <h4><a href="">heineken</a></h4>
+                <p>5.00$</p>
+            </div>
+        </div>
+
+        <div class="conteiner" id="conteiner">
+            <div class="cover Beveridge" id="content">
+                <div>
+                    <img src="./assets/img/water.png" alt="water">
+                </div>
+                <h4><a href="">water</a></h4>
+                <p>0.5$</p>
+            </div>
+            <div class="cover pizza" id="content">
+                <div>
+                    <img src="./assets/img/CheesyVeggie.png" alt="Cheesy Veggie">
+                </div>
+                <h4><a href="">Cheesy Veggie</a></h4>
+                <p>4.00$</p>
+            </div>
+        </div>
+
+        <div class="conteiner" id="conteiner">
+            <div class="cover pizza" id="content">
+                <div>
+                    <img src="./assets/img/smokin.png" alt="smokin">
+                </div>
+                <h4><a href="">smokin</a></h4>
+                <p>4.00$</p>
+            </div>
+            <div class="cover  pizza" id="content" >
+                <div>
+                    <img src="./assets/img/clasicChees.png" alt="Classic Cheese">
+                </div>
+                <h4><a href="">Classic Cheese </a></h4>
+                <p>8.1$</p>
+            </div>
+        </div>
+
+        <div class="conteiner" id="conteiner">
+            <div class="cover pizza" id="content">
+                <div>
+                    <img src="./assets/img/hula.png" alt="hula">
+                </div>
+                <h4><a href="">Hula</a></h4>
+                <p>6.00$</p>
+            </div>
+            <div class="cover" id="content">
+                <div>
+                    <img src="./assets/img/cookies.png" alt="cookies">
+                </div>
+                <h4><a href="">cookies</a></h4>
+                <p>1.5$</p>
+            </div>
+        </div>
+    <script src="./js/menu.js" ></script>
+</body>
+</html>
